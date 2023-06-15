@@ -18,6 +18,8 @@
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 
 .nav{
@@ -80,20 +82,20 @@ width: 125px;
   height:568px;
   width:646px;
   position:absolute;
-  right: 5px;
   margin-top: 124px;
+  z-index: -1;
+  right: 5px;
+  bottom: 70px;
+
 
 }
 
 .header__footer{
   display: flex;
-  margin-top: auto;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  margin: 0 80px 40px;
-  position: relative;
-  top: 200px;
+  margin: auto 80px 40px;
 }
 
 .header__paragraph{
