@@ -163,7 +163,7 @@ width: 125px;
   color: #FFFFFF;
 }
 
-.menu{
+.reservation{
   display:flex;
   flex-direction:column;
   height:100vh;
