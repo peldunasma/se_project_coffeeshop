@@ -89,7 +89,58 @@
               </div>
               </div>
         </section>
-        <section id="menu" class="menu"></section>
+        <section id="menu" class="menu">
+          <h2 class="reservation__title">Book a Table</h2>
+            <div class="reservation__form">
+              <form class="form">
+              <fieldset class="form__fieldset">
+                  <label for= "name" class="form__label">Name *</label>
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="name"
+                    name="name"
+                    placeholder="Name Surname"
+                  />
+                  <label for="number" class="form__label">Number of guests *</label>
+                  <input
+                    type="number"
+                    class="form__input"
+                    id="number"
+                    name="number"
+                    placeholder="1-8"
+                  />
+                  <label for="datetime-local"class="form__label">Date & time *</label>
+                  <input
+                    type="datetime-local"
+                    class="form__input"
+                    id="datetime-local"
+                    name="datetime-local"
+                  />
+                  <label for="email" class="form__label">Your email *</label>
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="email"
+                    name="email"
+                    placeholder="email@email.com"
+                  />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <input
+                type="checkbox"
+                class="form__input_type_checkbox"
+                name="agreement"
+                id="agreement"
+              />
+              <label for="agreement" class="form__checkbox">I agree with the terms of use</label>
+              </fieldset>
+            </form>
+            </div>
+        </section>
         <section id="booking" class="reservation"></section>
         <section id="contacts" class="about"></section>
       </main>
