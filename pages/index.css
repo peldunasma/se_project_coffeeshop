@@ -238,7 +238,7 @@ width: 125px;
   transition: opacity;
 }
 
-.form_fieldset-checkbox{
+.form__fieldset-checkbox{
   display: flex;
   justify-content:center;
 }
