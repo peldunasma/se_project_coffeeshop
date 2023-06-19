@@ -110,9 +110,6 @@ width: 125px;
 .recipes{
   display:flex;
   flex-direction:column;
-  height:100vh;
-  min-height: 720px;
-  max-height: 800px;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
@@ -162,9 +159,6 @@ width: 125px;
 .reservation{
   display:flex;
   flex-direction:column;
-  height:100vh;
-  min-height: 720px;
-  max-height: 800px;
   background-color: #D9E7FF;
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
@@ -254,9 +248,6 @@ width: 125px;
 .menu{
   display:flex;
   flex-direction:column;
-  height:100vh;
-  min-height: 720px;
-  max-height: 800px;
   background-color: #FFFFFF;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
@@ -335,4 +326,36 @@ span.card__list-divider{
   box-sizing: border-box;
   display: flex;
   z-index: 1;
+}
+
+.about__title{
+  margin: 100px 0 0 80px;
+  max-width: 251px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content{
+  max-width: 660px;
+  margin: 119px 80px 173px auto;
+}
+
+.about__paragraph{
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.about__circle{
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
 }
