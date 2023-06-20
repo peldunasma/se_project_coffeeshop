@@ -57,6 +57,10 @@
   width: 16px;
 }
 
+.footer__list-item:hover{
+  color: #C1C1C1;
+}
+
 .footer__copyright{
   color: #fff;
   margin: 0 80px 60px;
