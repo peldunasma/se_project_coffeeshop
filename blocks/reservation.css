@@ -12,13 +12,13 @@
 
 .reservation__title{
   color:#000000;
-  margin: 100px auto 0;
-  font-family: Inter;
+  margin: 0 auto 0;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
 }
 
 .reservation__form{
-  margin: 80px auto 120px;
+  margin: 80px auto 0;
 }
