@@ -8,7 +8,7 @@
 .form__label{
   display: block;
   margin: auto;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -21,11 +21,10 @@
   height: 60px;
   width: 385px;
   margin: 8px auto 32px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  border-color: #838383;
-  border: 1px solid;
+  border: 1px solid #838383;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -43,8 +42,6 @@
   background-color: #2f80ed;
   color: #FFFFFF;
   border: none;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .form__button:hover{

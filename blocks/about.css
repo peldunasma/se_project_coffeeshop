@@ -36,12 +36,16 @@
 }
 
 .about__paragraph{
-  font-family: "Noto Serif", Times, serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
   margin-top: 0;
   margin-bottom: 20px;
 
+}
+
+.about__paragraph:last-of-type{
+  margin: 0;
 }
 
 .about__circle{

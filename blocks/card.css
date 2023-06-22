@@ -1,7 +1,5 @@
 .card{
   width: 540px;
-  margin-right: 100px;
-  margin-bottom: 100px;
   }
 
   .card__title{
@@ -16,7 +14,7 @@
   }
 
   .card__list{
-  font-family: "Noto Serif", Times, serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 16px;
   line-height: 20px;
   padding-left: 0;
@@ -26,7 +24,6 @@
   .card__list-item{
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
   margin-bottom: 16px;
   gap: 12px;
   }
